@@ -1,5 +1,6 @@
 Este aplicativo realiza o sorteio de amigo secreto de forma simples e prática. O usuário insere os nomes dos participantes, formando uma lista. Depois que todos os nomes forem adicionados, cada pessoa pressiona o botão "Sortear amigo" para descobrir quem foi escolhido. Em seguida, confirma com o botão "Ok" para garantir que o próximo participante não veja o resultado. Quando todos tiverem recebido um amigo secreto, o app informa que o sorteio foi concluído e apaga a lista automaticamente. Assim, o sistema fica pronto para um novo sorteio sempre que necessário.
 
+C:\Users\User\Desktop\DESAFIO AMIGO SECRETO\challenge-amigo-secreto_pt-main\amp.gif
 
 Link para acessar o sorteador : https://caikysouza.github.io/desafioamigopokemon/
 Bons estudos sempre!! 
