@@ -2,6 +2,7 @@
 let amigos = [];
 let copiaAmigos = [];
 
+
 // Lista de amigos do localStorage
 window.onload = function() {
     if (localStorage.getItem('amigos')) {
@@ -9,6 +10,7 @@ window.onload = function() {
         atualizarLista();
     }
 }
+
 
 function adicionarAmigo(){
     let inputAmigo = document.getElementById('amigo');
@@ -26,6 +28,7 @@ function adicionarAmigo(){
     // Salvar lista de amigos
     localStorage.setItem('amigos', JSON.stringify(amigos));
 }
+
 
 function atualizarLista(){
     let listaAmigos = document.getElementById('listaAmigos');
@@ -64,8 +67,10 @@ function sortearAmigo(nomeSorteador){
         amigoSorteado = copiaAmigos[indiceSorteado];
     } while (amigoSorteado == nomeSorteador);
 
+    
     alert(`O pokemon sorteado é: ${amigoSorteado}`);
 
+    
     // Remover o amigo sorteado da lista de cópia
     copiaAmigos.splice(indiceSorteado, 1);
 
@@ -76,6 +81,7 @@ function sortearAmigo(nomeSorteador){
         resetarSorteio();
     }
 }
+
 
 function resetarSorteio() {
     copiaAmigos = [];
